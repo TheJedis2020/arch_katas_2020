@@ -6,7 +6,7 @@ _PROPOSED_
 
 ## Context and Problem Statement
 
-The "Farmacy Foods" system should allow customer subscription to meals. When the customer takes the meal from the fridge, the system identifies the taken meal with respect of belonging or not belonging to the customer that has opened the fridge. While the simple solution would be to add an attribute of customer ID to every meal managed by Meals Inventory, and to query that database, the immediacy of resolving taken meals attribution at the fridge demands a faster and more reliable approach.
+The "Farmacy Food" system should allow customer subscription to meals. When the customer takes the meal from the fridge, the system identifies the taken meal with respect of belonging or not belonging to the customer that has opened the fridge. While the simple solution would be to add an attribute of customer ID to every meal managed by Meals Inventory, and to query that database, the immediacy of resolving taken meals attribution at the fridge demands a faster and more reliable approach.
 
 ### Requirements
 

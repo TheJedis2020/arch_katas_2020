@@ -14,8 +14,8 @@ The customer requirements regarding orders are vague, but it could be inferred t
 
 ### Business Assumptions
 
-* The "subscription" means the ability for an identified customer to purchase a pre-paid option to have a personal meal delivered to a smart fridge of his chosing at the appointed time for a certain number of days. 
-* The expiration date of subscribed meal is set on the same day as it is about to be consumed
+* The _subscription_ is the ability for an identified customer to purchase a pre-paid option to have a personal meal delivered to a smart fridge of his chosing at the appointed time for a certain number of days. 
+* The expiration date of subscribed meal is set on the same day as it is about to be consumed.
 * It is assumed that meals prepared for subscribed customers are marked with their name and otherwise are distinct from regular meals to be easily identified in the fridge.
 * The one-day time constrained subscription is equivalent to daily meal order, allowing to create a separate UI for meal orders that rides atop the subscriptions engine.
 

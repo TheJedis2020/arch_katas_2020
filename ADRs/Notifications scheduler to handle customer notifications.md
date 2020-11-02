@@ -6,7 +6,7 @@ _PROPOSED_
 
 ## Context and Problem Statement
 
-The "Farmacy Foods" system should allow sending notifications to subscribeds after they have received the meal, to prompt them to send customer satisfaction feedback. The messages should arrive a set amount of time after purchase confirmation.
+The "Farmacy Food" system should allow sending notifications to subscribers after they have received the meal, to prompt them to send customer satisfaction feedback. The messages should arrive a set amount of time after purchase confirmation.
 
 The Subscription Notification service issues messages to customers on meals status change, so there is a similarity, but unlike those messages, the feedback prompts are not sent immediately.
 
