@@ -6,7 +6,7 @@ _PROPOSED_
 
 ## Context and Problem Statement
 
-The "Farmacy Foods" system should allow both direct purchases at the fridge and customer subscriptions based on the suggestions of health professionals as well as subscriber notifications.
+The "Farmacy Food" system should allow both direct purchases at the fridge and customer subscriptions based on the suggestions of health professionals as well as subscriber notifications.
 
 ### Requirements
 

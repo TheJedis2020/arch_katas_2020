@@ -6,7 +6,11 @@ _PROPOSED_
 
 ## Context and Problem Statement
 
-The "Farmacy Foods" system maintains meal status via Meals Inventory subsystem. The Meals Inventory subsystem consumes meal status messages from various other subsystems to maintain inventory integrity, indicating whether the meal has been ordered, produced, placed in a fridge, purchased or expired. The system also needs to notify subscribed customers of their meals status changes, but system does not send messages to non-identified customers. Customer needs to create subscription at least once to be identified henceforth by the system. Since we assume that majority of meal purchases are anonymous, it means that a relatively small subset of meal status messages should be reflected to customers
+The "Farmacy Food" system maintains meal status via Meals Inventory subsystem.
+
+The Meals Inventory subsystem consumes meal status messages from various other subsystems to maintain inventory integrity, indicating whether the meal has been ordered, produced, placed in a fridge, purchased or expired. The system also needs to notify subscribed customers of their meals status changes, but it does not send messages to non-identified customers.
+
+Customer needs to create subscription at least once to be identified henceforth by the system. Since we assume that majority of meal purchases are anonymous, it means that a relatively small subset of meal status messages should be reflected to customers.
 
 ### Requirements
 
@@ -37,26 +41,26 @@ It is worthy of notice that the requirements are quite general and vague, allowi
     * The meal arrival messages
 * Messages that the subsystem must produce or consume
     * __Consume__ messages from Meals Inventory Service about following meals statuses: 
-        * Meal arrived to fridge. _Frequent at peaks._
-        * Meal is close to expiration (subscriber meals expire on the supposed consumption day). _Infrequent._
-        * Meal was purchased by the customer._Frequent at peaks._
+        * Meal arrived to fridge. _Frequent at peaks_.
+        * Meal is close to expiration (subscriber meals expire on the supposed consumption day). _Infrequent_.
+        * Meal was purchased by the customer. _Frequent at peaks_.
     * __Produce__ following messages to Kitchen Meals Ordering service
-        * Production orders for the kitchen based on subscriptions._No peaks._
+        * Production orders for the kitchen based on subscriptions. _No peaks_.
     * __Produce__ following messages to Notifications Scheduler service
-        * __Immediate__ Notifying customer his meal has arrived to the fridge._Frequent at peaks._
-        * __Immediate__ Notifying customer about approaching expiration._Infrequent._
-        * __Scheduled__ Proposals to fill customer satisfaction survey two hours after meal was taken by the fridge._Frequent at peaks._
+        * __Immediate__ Notifying customer his meal has arrived to the fridge. _Frequent at peaks_.
+        * __Immediate__ Notifying customer about approaching expiration. _Infrequent_.
+        * __Scheduled__ Proposals to fill customer satisfaction survey two hours after meal was taken from the fridge. _Frequent at peaks_.
 * Notifications Scheduler service is also used to send promotional materials, but it is not directly dependent on existing subscriptions and has nothing to do with subscriptions tracking.
 * TBD Michael - is the above OK?
 
 ## Considered options 
 
-* Having Notifications Scheduler service consume all meals status messages, use internal BL to find out which of them should produce customer notifications and send them.
+* Notifications Scheduler service would consume all meals status messages, use internal business logic to find out which of them should produce customer notifications and send them.
 * Introduce Subscriptions Notifications service.
 
 ## The decision
 
-* Introduce Subscriptions Notifications service that would listen to meals status  messages, and produce costomer notifications messages for Notifications service to consume, based on a store that connects meals id's with customer id's (described in separate ADR).
+* Introduce Subscriptions Notifications service that would listen to meals status  messages, and produce costomer notifications messages for Notifications service to consume, based on a store that connects meals IDs with customer IDs (described in separate ADR).
 * The subscriber meal status notifications will use a separate queue than meals status messages.
 
 __Reasons:__ 

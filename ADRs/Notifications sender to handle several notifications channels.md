@@ -6,7 +6,9 @@ _PROPOSED_
 
 ## Context and Problem Statement
 
-The "Farmacy Foods" system should allow sending notifications to subscribeds after they have received the meal, to prompt them to send customer satisfaction feedback. The system should support ability to send messages via various communications channels, e.g. SMS, push notifications, emails, recorded messages etc.
+The "Farmacy Food" system should allow sending notifications to subscribers after they have received the meal, to prompt them to send customer satisfaction feedback.
+
+The system should support ability to send messages via various communications channels, e.g. SMS, push notifications, emails, recorded messages, etc.
 
 ### Requirements
 
@@ -14,11 +16,12 @@ The "Farmacy Foods" system should allow sending notifications to subscribeds aft
 
 ### Business Assumptions
 
-Several media channels to communicate with customers should be supported.
+Several communication channels to communicate with customers should be supported.
 
 ## Decision drivers
 
-* Several communication channels should be supported by the notifications service, but the core message processing, composition and sending is rather small and simple and is not supposed to change much.
+* Several communication channels should be supported by the notifications service.
+* The core message processing, composition and sending is rather small and simple and is not supposed to change much.
 * The specifics of sending messages via various channels is of no interest to the core.
 * New media channels addition should be supported as simply as possible.
 * TBD Michael
