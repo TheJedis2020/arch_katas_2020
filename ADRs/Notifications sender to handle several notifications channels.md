@@ -12,7 +12,7 @@ The system should support ability to send messages via various communications ch
 
 ### Requirements
 
-* Support for push message, email, and/or SMS notifications to subscribed customers, some immediate and some deferred.
+* Support for push message, email, and/or SMS notifications to subscribed customers, some immediate and some deferred and future possible channels and integrations
 
 ### Business Assumptions
 
@@ -20,11 +20,8 @@ Several communication channels to communicate with customers should be supported
 
 ## Decision drivers
 
-* Several communication channels should be supported by the notifications service.
-* The core message processing, composition and sending is rather small and simple and is not supposed to change much.
-* The specifics of sending messages via various channels is of no interest to the core.
-* New media channels addition should be supported as simply as possible.
-* TBD Michael
+* Several communication channels should be supported by the notifications service as plugins.
+* New media channels addition should be supported as simply as possible by developing new model and implementation of certain interfaces.
 
 ## Considered options
 
@@ -36,7 +33,10 @@ Several communication channels to communicate with customers should be supported
 Make notifications Sender a microkernel service that supports communication capability plugins.
 
 __Reasons:__ 
-* TBD Michael
+
+* Easy to react to change in plugin models while minimizing changes to the core system.
+* Easy to deploy specific models rather than the whole system.
+* Easy to test specific model as a component in isolation.
 
 ### Architectural style
 

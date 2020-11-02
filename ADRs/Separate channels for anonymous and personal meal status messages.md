@@ -8,7 +8,7 @@ ACCEPTED
 
 The "Farmacy Food" system maintains meal status via Meals Inventory subsystem.
 
-The Meals Inventory subsystem consumes meal status messages from various other subsystems to maintain inventory integrity, indicating whether the meal has been ordered, produced, placed in a fridge, purchased or expired. The system also needs to notify subscribed customers of their meals status changes, but it does not send messages to non-identified customers.
+The Meals Inventory subsystem consumes meal status messages from various other subsystems to maintain inventory integrity, indicating whether the meal has been ordered, produced, placed in a fridge, purchased or expired. The system also needs to notify subscribed customers of their meals status changes, but it does not send messages to anonymous customers.
 
 Customer needs to create subscription at least once to be identified henceforth by the system. Since we assume that majority of meal purchases are anonymous, it means that a relatively small subset of meal status messages should be reflected to customers.
 
@@ -47,11 +47,10 @@ It is worthy of notice that the requirements are quite general and vague, allowi
     * __Produce__ following messages to Kitchen Meals Ordering service
         * Production orders for the kitchen based on subscriptions. _No peaks_.
     * __Produce__ following messages to Notifications Scheduler service
-        * __Immediate__ Notifying customer his meal has arrived to the fridge. _Frequent at peaks_.
+        * __Immediate__ Notifying customer customer's meal has arrived to the fridge. _Frequent at peaks_.
         * __Immediate__ Notifying customer about approaching expiration. _Infrequent_.
         * __Scheduled__ Proposals to fill customer satisfaction survey two hours after meal was taken from the fridge. _Frequent at peaks_.
 * Notifications Scheduler service is also used to send promotional materials, but it is not directly dependent on existing subscriptions and has nothing to do with subscriptions tracking.
-* TBD Michael - is the above OK?
 
 ## Considered options 
 
@@ -60,13 +59,12 @@ It is worthy of notice that the requirements are quite general and vague, allowi
 
 ## The decision
 
-* Introduce Subscriptions Notifications service that would listen to meals status  messages, and produce costomer notifications messages for Notifications service to consume, based on a store that connects meals IDs with customer IDs (described in separate ADR).
+* Introduce Subscriptions Notifications service that would listen to meals status  messages, and produce costomer notifications messages for Notifications service to consume, based on a store that connects meals IDs with customer IDs.
 * The subscriber meal status notifications will use a separate queue than meals status messages.
 
 __Reasons:__ 
 
-* Separates meal status messages meant for inventory maintanance from customer notification messages into two separate queues improves performance, reliability, modularity and scalability of the system.
-* TBD Michael - is the above OK?
+* For Notification Scheduler we need a separate topic to stream only messages relevant for personalized customer notifications. Having separete topic for customer notifications improves system reliability and performance.
 
 ### Architectural style: 
 
