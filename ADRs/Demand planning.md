@@ -2,8 +2,7 @@
 
 ## Status
 
-[v] Reviewed by Michael
-[ ] Reviewed by Dmitry
+ACCEPTED
 
 ## Context and Problem Statement
 

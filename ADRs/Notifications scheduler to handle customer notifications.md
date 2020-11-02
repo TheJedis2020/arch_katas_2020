@@ -2,7 +2,7 @@
 
 ## Status
 
-_PROPOSED_
+ACCEPTED
 
 ## Context and Problem Statement
 
