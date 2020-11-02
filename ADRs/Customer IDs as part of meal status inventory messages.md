@@ -6,11 +6,11 @@ _PROPOSED_
 
 ## Context and Problem Statement
 
-The "Farmacy Foods" system Subscription Notiication engine consumes meal status update messages. It then needs to notify Notifications Scheduler to send personalized messages to customers. Should we embed customer IDs as part of meal status update messages with an option of it being empty in many cases, or should Subscription Notiication engine query the Meals Inventory DB to attribute a meal to a customer? 
+The Subscription Notification Engine consumes meal status update messages. It then needs to notify Notifications Scheduler to send personalized messages to customers. Should we embed customer IDs as part of meal status update messages with an option of it being empty in many cases, or should Subscription Notiication engine query the Meals Inventory DB to attribute a meal to a customer?
 
 ### Requirements
 
-* The "Farmacy Food" system needs to issue personalized notifications to subscribed customers. 
+* The "Farmacy Food" system needs to issue personalized notifications to subscribed customers.
 
 ### Business Assumptions
 
@@ -18,7 +18,7 @@ The "Farmacy Foods" system Subscription Notiication engine consumes meal status 
 
 ## Decision drivers
 
-* Most of the meals records in inventory will not need customer ID attribute, therefore introducing it in the main inventory DB may be redundant.
+* Most of the meal records in inventory will not need customer ID attribute, therefore introducing it in the main inventory DB may be redundant.
 * On the other hand, enrichment is a costly operation, that may result in time to process the initial un-enriched message and additional API calls.
 * Having ID as part of message makes for a simpler system as long as the message as a whole is not too large.
 * At the moment the messages seem to be small and simple.
@@ -30,7 +30,7 @@ The "Farmacy Foods" system Subscription Notiication engine consumes meal status 
 
 ## Decision
 
- Include customer ID for all meal inventory messages. Leave it empty for anonymous purchases.
+Include customer ID for all meal inventory messages. Leave it empty for anonymous purchases.
 
 __Reasons:__ 
 * Speed of processing.

@@ -6,7 +6,9 @@ _PROPOSED_
 
 ## Context and Problem Statement
 
-The "Farmacy Foods" system should allow sending notifications to subscribeds after they have received the meal, to prompt them to send customer satisfaction feedback. The messages should arrive a set amount of time after purchase confirmation. The Subscription Notification service is issuing messages to customers on meals status change, so there is a similarity, but unlike those messages, the feedback prompts are not sent immediately.
+The "Farmacy Foods" system should allow sending notifications to subscribeds after they have received the meal, to prompt them to send customer satisfaction feedback. The messages should arrive a set amount of time after purchase confirmation.
+
+The Subscription Notification service issues messages to customers on meals status change, so there is a similarity, but unlike those messages, the feedback prompts are not sent immediately.
 
 ### Requirements
 
@@ -15,19 +17,20 @@ The "Farmacy Foods" system should allow sending notifications to subscribeds aft
 ### Business Assumptions
 
 It was not explicitely stated by the "Farmacy Food" customer which kinds of messages should be pushed to customers and at which intervals. We therefore assume the messages sent to subscribed customers are meal status and customer satisfaction surveys.
-    * Notification of meal arrival to the fridge.
-    * Customer satisfaction surveys sent two hours after the meal has been picked by a customer.
-    * Notification to the customer that did not pick up a meal for a long time (it will be discarded by the refiller at the next refill as expired).
+
+* Notification of meal arrival to the fridge.
+* Customer satisfaction surveys sent two hours after the meal has been picked by a customer.
+* Notification to the customer that did not pick up a meal for a long time (it will be discarded by the refiller at the next refill as expired).
 
 ## Decision drivers
 
-* The Subscription Notification service consumes meal status messages and if the meal is a subscriber meal, sends notifications to subscribers. However the responsibility control of the sending time belongs to Notification Scheduler service, which is a final stop before a message is dispatch to the customer. 
-* The Subscription Notification service is under a larger load already consuming meal status messages, prone to load peaks.
+* The Subscription Notification service consumes meal status messages and if the meal is a subscriber meal, sends notifications to subscribers. However the responsibility control of the sending time belongs to Notification Scheduler service, which is a final stop before a message is dispatched to the customer.
+* The Subscription Notification service is under a larger load, already consuming meal status messages, prone to load peaks.
 
 ## Considered options
 
-* Have Subscription Notification service cache deferred messages to Notification Scheduler service and handle the scheduling.
-* Have Subscription Notification service mark the messages with "time-to-send" and have Notification Scheduler service schedule and send the customer messages.
+* Subscription Notification service would cache deferred messages to Notification Scheduler service and handle the scheduling.
+* Subscription Notification service would mark the messages with "time-to-send" and have Notification Scheduler service schedule and send the customer messages.
 
 ## Decision
 
