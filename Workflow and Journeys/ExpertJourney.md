@@ -1,1 +1,0 @@
-# A platform for health food professionals
