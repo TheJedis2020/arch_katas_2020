@@ -12,7 +12,7 @@ Our conviction that we are not creating a mere mechanism, but a living community
 
 ##  The Strategy  
 
-All businesses desire to expand, and do so in a responsible and a community-serving way. [Here](./Strategy.md) we outline our stragegy - how we plan to scale and expand our architecture to empower __Farmacy Food__ to achieve its full potential.  
+All businesses desire to expand, and do so in a responsible and a community-serving way. [Here](./Strategy.md) we outline our strategy - how we plan to scale and expand our architecture to empower __Farmacy Food__ to achieve its full potential.  
 
 ## The Architecture  
 
