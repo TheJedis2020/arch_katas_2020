@@ -1,15 +1,15 @@
 # General Architecture  
 
-# Evolvability
+## Evolvability
 
-# Scalability 
+## Scalability 
 
-# Fault Tolerance
+## Fault Tolerance
 
-# Testabiluty
+## Testability
 
-# Workflow
+## Workflow
 
-# Configuration and Costs
+## Configuration and Costs
 
-# Conclusion
+## Conclusion
