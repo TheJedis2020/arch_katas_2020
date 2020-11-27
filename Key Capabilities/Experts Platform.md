@@ -1,15 +1,23 @@
 # Expert Platform and CMS
 
-_Pooling the Health Food Expertise_
+![image](../Images/) 
 
 ## The Rationale
 
-## The Capability
+
+
+## Use cases
+
+* 
 
 ## Components
 
-## Architecture
+* 
 
-## Data Flow
+## Architectural characteristics
 
-## Scaling
+* 
+
+## Architectural choice
+
+* 

@@ -1,16 +1,24 @@
 # Referrals and Rewards
 
-_...And bring your friends, too_
+![image](../Images/) 
 
 ## The Rationale
 
-## The Capability
+
+
+## Use cases
+
+* 
 
 ## Components
 
-## Architecture
+* 
 
-## Data Flow
+## Architectural characteristics
 
-## Scaling
+* 
+
+## Architectural choice
+
+* 
 

@@ -1,13 +1,23 @@
 # Identity and Profile
 
+![image](../Images/Identity.png) 
+
 ## The Rationale
 
-## The Capability
+
+
+## Use cases
+
+* 
 
 ## Components
 
-## Architecture
+* 
 
-## Data Flow
+## Architectural characteristics
 
-## Scaling
+* 
+
+## Architectural choice
+
+* 

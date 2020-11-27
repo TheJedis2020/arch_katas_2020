@@ -1,15 +1,23 @@
 # Data Platform  
 
-_Making sense of it all._
+![image](../Images/) 
 
 ## The Rationale
 
-## The Capability
+
+
+## Use cases
+
+* 
 
 ## Components
 
-## Architecture
+* 
 
-## Data Flow
+## Architectural characteristics
 
-## Scaling
+* 
+
+## Architectural choice
+
+* 
