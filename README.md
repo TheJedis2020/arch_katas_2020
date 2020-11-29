@@ -4,7 +4,7 @@
 
 ## Prelude  
 
-All successful business stories start with a problem to solve. In this case, all began with a very personal pain. Kwaku, the person who originated the idea of "Farmacy Food", was frustrated, overwhelmed by a recent failure of his latest business venture. His energy level was low, his time was extremely limited, and his mind was preoccupied by anything but maintaining a healthy diet. It was then, when a thought of how to get a healthy snack without worrying about its quality or wasting too much precious time on preparing it or looking for it struck a business chord. Modern entrepreneur is a high pressure business machine, and a well-functioning machine needs high quality fuel provided when necessary. We are what we eat. We function as we eat. It is especially important in these trying times, where COVID-19 wreaks havoc in the restaurants and food markets. Kwaku already has the dots - the kitchen, the fridges, the locations. Our goal as a team is to help him to connect them, by creating a system that can grow, expand, thrive and benefit both the owners and the community as a whole.  
+All successful business stories start with a problem to solve. In this case, all began with a very personal pain. Kwaku, the person who originated the idea of "Farmacy Food", was frustrated, overwhelmed by a recent failure of his latest business venture. His energy levels were low, his time extremely limited, and his mind was preoccupied by anything but maintaining a healthy diet. It was then, when a thought of how to get a healthy snack without worrying about its quality or wasting too much precious time on preparing it or looking for it struck a business chord. Modern entrepreneur is a high pressure business machine, and a well-functioning machine needs high quality fuel provided when necessary. We are what we eat. We function as we eat. It is especially important in these trying times, where COVID-19 wreaks havoc in the restaurants and food markets. Kwaku already has the dots - the kitchen, the fridges, the locations. Our goal as a team is to help him to connect them, by creating a system that can grow, expand, thrive and benefit both the owners and the community as a whole.  
 
 ## The Vision  
 
@@ -49,7 +49,7 @@ All businesses desire to expand, and do so in a responsible and a community-serv
 * Of course if we experiment with something that we don’t know we can do shortcuts, but we should have a very clear reason for __not__ aiming to the ideal target state.
 * The motto is "we are not so rich that we could afford to buy cheap stuff".
 
- [Here](./Strategy.md) we outline our strategy - how we plan to scale and expand our architecture to empower __Farmacy Food__ to achieve its full potential.  
+ [Here we outline our strategy](./Strategy.md) - how we plan to scale and expand our architecture to empower __Farmacy Food__ to achieve its full potential.  
 
 ## The Architecture  
 

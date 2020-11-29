@@ -2,7 +2,7 @@
 
 ![image](../Images/Subscriptions.PNG) 
 
-## The Rationale
+## Capability rationale and description
 
 Allow the customers to order individual meals as well as to subscribe to weekly, monthly etc food deliveries. Automate meal orders and meal status tracking. Notify customers about meal arrivals. Tolerate peak times. High availability for customers.
 
@@ -33,3 +33,8 @@ Allow the customers to order individual meals as well as to subscribe to weekly,
 ## Architectural choice
 
 * Event Driven
+
+## Relevant ADR(s)
+
+* [Reusing subscription capability for same day meal orders](../ADRs/Reusing%20subscription%20capability%20for%20same%20day%20meal%20orders.md)
+* [Subscriptions meal ordering and meal tracking separation](../ADRs/Subscriptions%20meal%20ordering%20and%20meal%20tracking%20separation.md)

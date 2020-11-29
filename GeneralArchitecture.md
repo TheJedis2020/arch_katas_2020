@@ -5,6 +5,8 @@ This is why our architecture is a hybrid, where every capability and subsystem i
 It scales and grows together with the business it is built to support. 
 Having said that, it seems that eventually our architecture natuturally evolved into a more of the event driven variety because of necessity to support more complex workflows over time, and the need to gather data for business analytics.
 
+Application service BFF Backend For Frontend
+
 ## Evolvability
 
 ## Scalability 

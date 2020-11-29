@@ -10,7 +10,7 @@ The "Farmacy Food" system should allow customer subscription to meals. When the 
 
 ### Requirements
 
-* The smart fridge must support detection of meals taken by the customer and issue a warning if the meal taken by the identified customer belongs to another identified customer. 
+* The smart fridge must support fast detection of meals taken by the customer and issue a warning if the meal taken by the identified customer belongs to another identified customer. 
 
 ### Business Assumptions
 

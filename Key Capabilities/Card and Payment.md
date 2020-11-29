@@ -1,7 +1,7 @@
 # Card And Payment
 
 ![image](../Images/CardAndPayment.PNG) 
-## The Rationale  
+## Capability rationale and description  
 
 To allow for customers to subscribe to meals and to pay for them both online and at the fridge, PCI-compatible wallet and card tokens storage must be introduced. The capability must support multiple card processors for high availability and fault tolerance. Elasticity is required for peak times, performance is a second concern. Customer identification tokens and cards can be issued.
 

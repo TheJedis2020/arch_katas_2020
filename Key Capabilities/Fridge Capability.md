@@ -2,7 +2,7 @@
 
 ![image](../Images/Fridge.png) 
 
-## The Rationale
+## Capability rationale and description
 
 To allow more sophisticated operation than just payment for meal at the fridge, fridge API must be able to create a purchase session, that would connect the fridge, the inventory, the customer id, the payment and the subscriptions if any.
 The fridge must also report its status and inventory, as well as attempts of theft or unauthorised meal removal.
