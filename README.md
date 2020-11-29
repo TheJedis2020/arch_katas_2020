@@ -4,13 +4,11 @@
 
 ## Prelude  
 
-All successful business stories start with a problem to solve. In this case, all began with a very personal pain. Kwaku, the person who originated the idea of "Farmacy Food", was frustrated, overwhelmed by a recent failure of his latest business venture. His energy level was low, his time was extremely limited, and his mind was preoccupied by anything but maintaining a healthy diet. It was then, when a thought of how to get a healthy snack without worrying about its quality or wasting too much precious time on preparing it or looking for it struck a business chord. Modern entrepreneur is a high pressure business machine, and a well-functioning machine needs high quality fuel provided when necessary. We are what we eat. We function as we eat. It is especially important in these trying times, where COVID-19 wreaks havoc in the restaurants and food markets. Kwaku already has the dots - the kitchen, the fridges, the locations. Our goal as a team is to help him to connect them, by creating a system that can grow, expand, thrive and benefit both the owners and the community as a whole.  
+All successful business stories start with a problem to solve. In this case, all began with a very personal pain. Kwaku, the person who originated the idea of "Farmacy Food", was passing over challenges in his business venture. Kwaku’s energy level was low, his time was extremely limited, and his mind was preoccupied by anything but maintaining a healthy diet. It was then, when a thought of how to get a healthy food without worrying about its quality or wasting too much precious time on preparing it came to Kwaku’s mind and struck a business chord. Modern entrepreneur is a high pressure business machine, and a well-functioning machine needs high quality fuel provided when necessary. We are what we eat. We function as we eat. It is especially important in these trying times, where COVID-19 wreaks havoc in the restaurants and food markets. Kwaku already has the dots - the kitchen, the fridges, the locations. Our goal as a team is to help him to connect the dots, by creating a system that can grow, expand, thrive and benefit both - the owners and the community as a whole.
 
 ## The Vision  
 
-We also understand that any system or business usually have humble beginnings and then grow organically into something more. The question is, into what. _Ab initio_, all __Farmacy Food__ has is a kitchen, the fridges, and a modest accounting and payment capabilities managed via QuickBooks.
-Our vision is to build up from these capabilities and to evolve __Farmacy Food__ into a meeting place and even a social network, where health experts and customers can live the motto of business founder, Kwaku: _"Let thy food be thy medicine"_. There they would exchange and purchase recipes, meal plans and health related content, with the underlying infrastructure allowing them to purchase meals or subscribe whole meal plans from the experts of their choice, with a guarantee of delivery to the smart fridge near them.
-Our conviction that we are not creating a mere mechanism, but a living community and therefore a system that can both help the business and community to grow, and also to be able to grow with them.  
+Any system or business usually have humble beginnings and then grow organically into something more. The question is, into what. In the beginning all __Farmacy Food__ has is a - kitchen, the fridges, and a modest accounting and payment capabilities managed via __QuickBooks__. Our vision is to build up from these capabilities and to evolve __Farmacy Food__ into a meeting place and even a social network, where health experts and customers can live the motto of business founder, Kwaku: "Let thy food be thy medicine". There, they would exchange their experiences, meal plans and health related content. Plus, with the underlying __Farmacy Food__ infrastructure customers will purchase meals or subscribe to whole meal plans from the experts of their choice, with a guarantee of delivery to the smart fridge near them. Our conviction is that we are not creating a mere IoT and logistical mechanism. With our architecture we would love to create an impact by building long living “healthy eating communities” and help Kwaku’s business grow fast, organically and in a cost effective way.
 
 ## Business Requirements  
 
@@ -38,18 +36,10 @@ Our conviction that we are not creating a mere mechanism, but a living community
 
 ##  The Strategy  
 
-All businesses desire to expand, and do so in a responsible and a community-serving way. In general terms the strategy we have adopted follows these guidelines:  
+Modern technologies and Cloud enable rapid experimentation and development of distributed systems that were considered very complex several years ago. Within a few clicks or lines of code we can spin out a whole environment with databases, message brokers and microservices securely deployed in the Cloud of our choice. We can then gradually and continuously experiment our ideas, hypothesis and thus delight our customers with solving they toughest pains. Therefore, our strategy is to define initial architecture based on customer feedbacks as an ideal target state (which of course will evolve) and aim to to that. Here, we see no benefit in investing time and effort in creating technical debt and building monolithic systems or components which will require refactoring and re-engineering in the future. 
+Of course if we experiment with something that we don’t know we can do temporary trade-offs and simplifications, but we should have a very clear reason for __NOT__ aiming to the ideal target state. Unless, we are building a minimum viable product for rapid experimentation with new hypothesis and we are not sure about future requirements, customer needs or market. Our main principle is that "we are not rich enough to buy cheap things".
 
-* We have an established and clear vision for the end state of our architecture. 
-* Modern cloud-based technology allows for rapid establishment of event queues and distributed services.
-* We therefore do not see benefits in evolving the architecture from a more simple and monolythic architectural style to the more distributed.
-* We prefer to evolve not architectural styles, but rather capabilities. 
-* We add architectural and technological elements as needed to support the capabilities, that would still be relevant in the end state.
-* The benefits of this approach is elimination of unnecessary refactoring and technical debt as we evolve the system.
-* Of course if we experiment with something that we don’t know we can do shortcuts, but we should have a very clear reason for __not__ aiming to the ideal target state.
-* The motto is "we are not so rich that we could afford to buy cheap stuff".
-
- [Here](./Strategy.md) we outline our strategy - how we plan to scale and expand our architecture to empower __Farmacy Food__ to achieve its full potential.  
+ [Here](./Strategy.md) is a detailed strategy how we plan to scale and expand our architecture to empower __Farmacy Food__ and achieve its full potential.  
 
 ## The Architecture  
 
