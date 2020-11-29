@@ -31,7 +31,7 @@ Follow the links for the more detailed description of involved capabilities.
 ## Long Term  
 
 * Build [Data Platform]() to consume meal status events, purchase notifications and other data from the event bus. It will include __Ingestion Module__ to stream data into __Data Lake__, to be analized by __Processing and Analytics__ subsystem. This will allow analytics, operation reports, business performance tracking, data exploration and demand planning. This capability will be used by business administrators, health experts and data scientists to plan demand and devise business strategy.
-* Add [Expert Platform Capability]() and [CMS](). This will connect health food experts, Kwaku's meal production and distribution system, and the customers. The health food experts will publish meal plans for customers to select and turn into subscriptions.
+* Build [Expert Platform Capability]() and [CMS](). This will connect health food experts, Kwaku's meal production and distribution system, and the customers. The health food experts will publish meal plans for customers to select and turn into subscriptions. CMS is one of the capabilities we should consider buying as it's not core of our business.
 * Expand [Subscription Capability]() to use meal plans from the Expert Platform as templates for customer subscription.
 * Expand [Feedback Capability]() and [Referrals and Rewards Capability]() to let users provide feedback and ranking for experts and meal plans, and refer friends and family to experts.
 * Expand [Notification Service]() to allow the experts to push commercial content and feedback requests.
