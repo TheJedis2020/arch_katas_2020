@@ -36,7 +36,7 @@ The meals are the central aspect of the business, and there is a big focus on fo
 
 Meals are tracked in a central database where each meal has a unique ID.
 
-A meal has several attributes:
+A meal status may include (but not limited to) several attributes:
 * Type
 * Where and when it was produced
 * Status - ordered, produced, available for purchase, or purchased
@@ -45,6 +45,7 @@ A meal has several attributes:
 * Price
 * Additional attributes to indicate if the meal was created due to subscription or regular production order
 * User ID for reserved meals (empty for meals that aren't reserved)
+* Referral code
 
 Any event involving the meal is updated in the system via the Data Platform, including:
 * Creating the meal order - add a new entry in the database

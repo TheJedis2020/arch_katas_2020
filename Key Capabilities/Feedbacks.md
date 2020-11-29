@@ -2,7 +2,7 @@
 
 ![image](../Images/Feedbacks.png) 
 
-## The Rationale
+## Capability rationale and description
 
 To collect customer feedback and meal rankings, through surveys, direct feedback via site/app and through push messages. At later stage, to expand the capability to collect feedback and ranking for experts, meal plans, and articles.
 
