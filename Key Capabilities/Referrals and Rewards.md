@@ -4,7 +4,7 @@
 
 ## Capability rationale and description
 
-To make the system viral, __Farmacy Food__ should allow the customers to share referral codes via messaging services and social networks, and reward them for successful referrals. A customer can refer his friends and family to the Farmacy Food main site, or even to send them a link to a particular public meal plan, expert, or even a single recipe. A successful referral is a registration and a completion of a first purchase. The link would contain the referral code, stored in Referrals Database, and if the addressee choses to subscribe and become a paying customer, the Purchase Session API would include the referral code in the meal status message at purchase finalization. The Referrals and Rewards Engine would consume the message, increase the customer’s credit ranking, and reward the customer according to the Rewards Policy, managed by the administration. Since the referral code would be stored in the new customer profile, the referring customer can be granted special rewards for the 100th or even a 1000th purchase by his friend or family member.  
+To make the system viral, __Farmacy Food__ should allow the customers to share referral codes via messaging services and social networks, and reward them for successful referrals. Customers can refer their friends and family to the Farmacy Food main site, or even to send them a link to a particular public meal plan, expert. A successful referral is a registration and a completion of the first purchase. The link would contain the referral code, stored in Referrals Database, and if the addressee choses to subscribe and become a paying customer, the Purchase Session API would include the referral code in the meal status message at purchase finalization. The Referrals and Rewards Engine would consume the message, increase the customer’s credit ranking, and reward the customer according to the Rewards Policy, managed by the administration. Since the referral code would be stored in the new customer profile, the referring customers can be granted special rewards for the 100th or even a 1000th purchase by their friends or family members.  
 
 An example of a reward policy could be: 
     1. Update customer credits with each referred meal.
@@ -37,5 +37,6 @@ credits and assigns rewards according to reward policy.
 
 ## Architectural choice
 
-* Microservices, event driven.
+* Microservices
+* Event driven.
 

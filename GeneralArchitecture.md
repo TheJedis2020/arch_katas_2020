@@ -1,11 +1,24 @@
 # General Architecture  
 
-Our deeply felt conviction that we are creating a system that can both help the business and community to grow, and also to be able to grow with them. Our obsession is not any specific architecture, it's our customers and their goals. Accordingly, the goal is not to provide an architecture, but rather a solution for Kwaku, his customers, and his community. 
-This is why our architecture is a hybrid, where every capability and subsystem is designed in such a way as to best serve both their specific task, and the overal purpose. 
+Our vision is that we are creating a fully automated smart fridge network, meal manufacturing and most important - "healthy eating communities". Our obsession is not any specific architecture - it's our customers, Kwaku and their goals. 
+There are many charachteristics that the system should support, hence our architecture is hybrid, where every capability and subsystem is designed in such a way as to best serve both their specific task, and the overal purpose. 
 It scales and grows together with the business it is built to support. 
-Having said that, it seems that eventually our architecture natuturally evolved into a more of the event driven variety because of necessity to support more complex workflows over time, and the need to gather data for business analytics.
+Having said that, it seems that eventually our architecture natuturally evolved into a more of the microservice and event driven variety because of necessity to support more complex workflows over time, and the need to gather data for business analytics.
 
-Application service BFF Backend For Frontend
+In addition, to the capabilities listed in the system component digram there are unlisted more detailed infrastructure  capabilities such as 
+* Data Protection and Encryption
+* Application Services (Backend for Frontend) for Server Side Rendering, HTTP batching, data and information formatting, filtering and merging.
+* API Gateway
+* Experimentation for A/B testing
+* Feature flagging
+* CICD
+* Security scans and SSDLC
+* Testing
+* Load testing
+* Service and Platform hosting in Cloud
+* More
+
+# Main System Charachteristics
 
 ## Evolvability
 
@@ -18,5 +31,3 @@ Application service BFF Backend For Frontend
 ## Workflow
 
 ## Configuration and Costs
-
-## Conclusion

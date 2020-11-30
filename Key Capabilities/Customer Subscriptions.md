@@ -32,7 +32,9 @@ Allow the customers to order individual meals as well as to subscribe to weekly,
 
 ## Architectural choice
 
+* Microservices 
 * Event Driven
+* Message driven service oriented
 
 ## Relevant ADR(s)
 

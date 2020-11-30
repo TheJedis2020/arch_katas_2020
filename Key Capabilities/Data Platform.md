@@ -4,13 +4,18 @@
 
 ## Capability rationale and description
 
-Each meal-related event, be it creation of an order, meal preparation, meal arrival to fridge and meal purchase generate messages that producers send to the topics in Data Platform Queues, to be consumed by services such as Notification Scheduler. Each such message bears a customer id, meal details, referral code if relevant, and meal status.
-To facilitate business analytics __Farmacy Food__ needs robust and reliable Data Platform. Through this platform the experts and the administration can track trends, analyze consumer preferences and predict inventory needs. 
+Farmacy Food is not just about food. It's about smart, intelligent and AI driven decisions at the right time. There's plenty of information in the ssytem which could be used for decisions, analytics and maybe even clinical researched in the future. Each event, be it creation of an order, meal preparation, meal arrival to fridge customer feedback contains information that could used. Therefore, __Farmacy Food__ needs robust and reliable Data Platform to support periodic as well as near real time stream analytics data appetites. Through this platform the experts, knowledge employees and the administration can track trends, analyze consumer preferences and predict inventory needs. In addition analysts and data scientists will get all tools to support their needs in data exploration, machine learning model training and machine learning model hosting. Data platform will also require __Encryption__ capability at the very detailed level to store and process highly sensitive data.
 
 
 ## Use cases
 
-* Collect data for logs and analytics
+* Periodic (batch) analytics
+* Near real time stream analystics
+* Data exploration
+* Data visualization
+* Machine Learning model training
+* Machine Learning data featurization
+* Machine Learning model hosting
 
 ## Components
 
@@ -29,7 +34,7 @@ To facilitate business analytics __Farmacy Food__ needs robust and reliable Data
 
 ## Architectural choice
 
-* Event-driven
+* Lambda Architecture
 
 ## Relevant ADR(s)
 

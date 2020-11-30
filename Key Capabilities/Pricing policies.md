@@ -4,7 +4,7 @@
 
 ## Capability rationale and description
 
-The system needs to implement a flexible pricing policy. The base price for a meal will be held in meals inventory. Additional to that, final meal price should be modified various pricing policies, according to time, place, customer type etc. The price must be recalculated when the policies or base price change, or when certain policies start or end. The customers should be able to see the final price at purchase or via the application. The system must be highly available and elastic to support the all purchases at peak times.
+The system needs to implement a flexible pricing policy. The base price for a meal will be held in __Meal Types__. In addition to that, final meal price could be modified by various pricing policies, according to time, place, customer type etc. The price must be recalculated every time when the policies or base price change, or when certain policies start or end. The customers should be able to see the final price at purchase or via the application. The system must be highly available and elastic to support the all purchases at peak times.
 
 ## Use cases
 
@@ -30,7 +30,8 @@ The system needs to implement a flexible pricing policy. The base price for a me
 
 ## Architectural choice
 
-* Event-driven. Separate microservices API for price calculation and price access API. 
+* Event-driven. 
+* Microservices - separate microservices API for price calculation and price access API. 
 
 ## Relevant ADR(s)
 

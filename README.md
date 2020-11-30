@@ -52,6 +52,7 @@ Of course if we experiment with something that we don’t know we can do tempora
 * [Identity and Profile](./Key%20Capabilities/Identity%20and%20Profile.md)  
 * [Kitchen Capability](./Key%20Capabilities/Kitchens.md)
 * [Meal Inventory](./Key%20Capabilities/Meal%20Inventory.md)
+* [Pricing](./Key%20Capabilities/Pricing%20policies.md)
 
 #### Intermediate Level Capabilities  
 
@@ -63,7 +64,7 @@ Of course if we experiment with something that we don’t know we can do tempora
 
 * [Data Platform](./Key%20Capabilities/Data%20Platform.md)
 * [Referrals and Rewards](./Key%20Capabilities/Referrals%20and%20Rewards.md)
-* [Expert Platform and CMS](./Key%20Capabilities/Experts%20Platform.md)  
+* [Expert Platform and CMS](./Key%20Capabilities/Expert%20Platform.md)  
 
 ## Workflow  
 

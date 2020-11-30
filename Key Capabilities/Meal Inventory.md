@@ -33,7 +33,8 @@ The system needs to manage meal types (recipes) and individual meals thoughout t
 
 ## Architectural choice
 
-* Microservices, event-driven.
+* Microservices
+* Event driven
 
 ## Relevant ADR(s)
 

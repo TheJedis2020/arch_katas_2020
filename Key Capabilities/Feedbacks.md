@@ -1,6 +1,6 @@
 # Feedback and Rankings
 
-![image](../Images/Feedbacks.png) 
+![image](../Images/Feedbacks.PNG) 
 
 ## Capability rationale and description
 
@@ -25,4 +25,4 @@ To collect customer feedback and meal rankings, through surveys, direct feedback
 
 ## Architectural choice
 
-* Serverless
+* Microservice
