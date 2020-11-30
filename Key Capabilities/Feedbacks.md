@@ -25,4 +25,4 @@ To collect customer feedback and meal rankings, through surveys, direct feedback
 
 ## Architectural choice
 
-* Serverless
+* Microservice
