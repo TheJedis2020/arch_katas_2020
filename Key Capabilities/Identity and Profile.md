@@ -1,10 +1,10 @@
 # Identity and Profile
 
-![image](../Images/Identity.png) 
+![image](../Images/Identity.PNG) 
 
 ## Capability rationale and description
 
-Identity services are essential if we customers are to subscribe to meals, receive personal notifications, receive identity tokens, and order personalized meals and meal plans. Customer profiles will store dietary preferences, and health data that the experts could use to provide personal customer advice.
+Identity services are essential if we customers are to subscribe to meals, receive personal notifications, receive identity tokens, and order personalized meals and meal plans. Customer profiles will store dietary preferences, and health data that the experts could use to provide personal customer advice. At the very detailed level this would also require __Encryption__ capability at the infrastructure level for encrypting highly sensitive data like PII or personal data highly sensitive data. __Encryption__ capability will als manage re-encryptions and key rotations periodically.
 
 ## Use cases
 
@@ -28,6 +28,7 @@ Identity services are essential if we customers are to subscribe to meals, recei
 * Fault tolerance.
 * Performance.
 * Elasticity.
+* Security
 
 ## Architectural choice
 

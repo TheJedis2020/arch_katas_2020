@@ -52,7 +52,11 @@ Of course if we experiment with something that we don’t know we can do tempora
 * [Identity and Profile](./Key%20Capabilities/Identity%20and%20Profile.md)  
 * [Kitchen Capability](./Key%20Capabilities/Kitchens.md)
 * [Meal Inventory](./Key%20Capabilities/Meal%20Inventory.md)
+<<<<<<< HEAD
 * [Pricing Policies](./Key%20Capabilities/Pricing%20Policies.md)
+=======
+* [Pricing](./Key%20Capabilities/Pricing%20policies.md)
+>>>>>>> fc675b6101014fa483c00f1e1cc23f3ac8d28313
 
 #### Stage 2 Capabilities  
 
