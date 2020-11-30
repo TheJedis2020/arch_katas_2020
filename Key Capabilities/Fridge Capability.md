@@ -13,8 +13,8 @@ The fridge has area for "free for all" (FFA) meals, available to anyone, identif
 * Anonimous customer opens the fridge by swiping a card, picks up a "free for all" meal or meals, closes the door, card is charged for meals taken.
 * Subscribed customer opens the fridge by swiping a card, picks up his subscription meal and may also take some "free for all" meal or meals, closes the door, Purchase Session charged the card for meals taken.
 * Subscribed customer opens the fridge by ID token, picks up his subscription meal and may also take some "free for all" meal or meals, closes the door, Purchase Session charged the card in customer wallet for meals taken.
-* Anonymous customer takes a subscription meal, alarm is sounded. If customer persists, the card is charched and Purchase Session notifies system of theft.
-* Subscriber customer takes a subscription meal of another customer, alarm is sounded. If customer persists, the card is charched and Purchase Session notifies system of theft and updates customer record. 
+* Anonymous customer takes a subscription meal, alarm is sounded. If customer persists, the the Purchase Session charges the card and notifies system of theft.
+* Subscriber customer takes a subscription meal of another customer, alarm is sounded. If customer persists, the Purchase Session charges the card and notifies system of theft and updates customer record. 
 
 
 ## Components
