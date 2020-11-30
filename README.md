@@ -70,8 +70,8 @@ Of course if we experiment with something that we don’t know we can do tempora
 
 * [Customer Meal Plan Subscription](./Sequence%20Diagrams/MealPlanSubscription.png)
 * [From Subscription To Smart Fridge](./Sequence%20Diagrams/SubscriptionExecution.png)
-* [Purchase by Registered Customer](./Sequence%20Diagrams/RegPurchase.png)  
-* [Purchase by Unregistered Customer](./Sequence%20Diagrams/UnregPurchase.png)  
+* [Purchase by Registered Customer](./Sequence%20Diagrams/RegPurchase.PNG)  
+* [Purchase by Unregistered Customer](./Sequence%20Diagrams/UnregPurchase.PNG)  
 * [Customer Notifications](./Sequence%20Diagrams/CustomerNotifications.png)  
 * [Referrals and Rewards](./Sequence%20Diagrams/ReferralsRewards.png)  
 
