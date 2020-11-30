@@ -15,6 +15,7 @@ In addition, to the capabilities listed in the system component digram there are
 * Security scans and SSDLC
 * Testing
 * Load testing
+* Service and Platform hosting in Cloud
 * More
 
 # Main System Charachteristics
