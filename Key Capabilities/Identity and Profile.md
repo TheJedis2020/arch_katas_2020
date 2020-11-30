@@ -1,6 +1,6 @@
 # Identity and Profile
 
-![image](../Images/Identity.png) 
+![image](../Images/Identity.PNG) 
 
 ## Capability rationale and description
 
