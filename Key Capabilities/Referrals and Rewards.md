@@ -37,5 +37,6 @@ credits and assigns rewards according to reward policy.
 
 ## Architectural choice
 
-* Microservices, event driven.
+* Microservices
+* Event driven.
 
