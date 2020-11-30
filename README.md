@@ -45,21 +45,22 @@ Of course if we experiment with something that we don’t know we can do tempora
 
 * [General Architecture](./GeneralArchitecture.md) - the general architectural idea.  
 
-#### Basic Capabilities  
+#### Stage 1 Capabilities  
 
 * [Fridge Capability](./Key%20Capabilities/Fridge%20Capability.md)
 * [Card and Payment](./Key%20Capabilities/Card%20and%20Payment.md)
 * [Identity and Profile](./Key%20Capabilities/Identity%20and%20Profile.md)  
 * [Kitchen Capability](./Key%20Capabilities/Kitchens.md)
 * [Meal Inventory](./Key%20Capabilities/Meal%20Inventory.md)
+* [Pricing Policies](./Key%20Capabilities/Pricing%20Policies.md)
 
-#### Intermediate Level Capabilities  
+#### Stage 2 Capabilities  
 
 * [Customer Subscriptions](./Key%20Capabilities/Customer%20Subscriptions.md)
 * [Notifications](./Key%20Capabilities/Notifications.md)
 * [Feedback and Ranking](./Key%20Capabilities/Feedbacks.md)  
 
-#### Advanced Capabilities  
+#### Stage 3 Capabilities  
 
 * [Data Platform](./Key%20Capabilities/Data%20Platform.md)
 * [Referrals and Rewards](./Key%20Capabilities/Referrals%20and%20Rewards.md)
