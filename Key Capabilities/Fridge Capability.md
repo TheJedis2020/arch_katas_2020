@@ -39,3 +39,4 @@ The fridge has area for "free for all" (FFA) meals, available to anyone, identif
 ## Architectural choice
 
 * Microservices
+* Event Driven
