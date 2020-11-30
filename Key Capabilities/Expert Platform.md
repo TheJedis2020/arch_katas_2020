@@ -4,14 +4,14 @@
 
 ## Capability rationale and description
 
-Espert Platform is where the health food experts and the customers meet. It rides upon a database of expert-crafted recipes in Meals Inventory, and another database of meal plans, which are sequences of recipes for meals intended for daily consumption over a period of time. The content and duration of each plan is variable and can be tailored to a concrete customer.
+Expert Platform is where the health food experts and the customers meet. It rides upon a database of expert-crafted recipes in Meals Inventory, and another database of meal plans, which are sequences of recipes for meals intended for daily consumption over a period of time. The content and duration of each plan is variable and can be tailored to a concrete customer.
 Experts log into the platform to create recipes and meal plans, and either send them privately to requesting customers through our messaging service, or publish them for a wider consumer audience on the content management system.
 They can also use the same CMS to publish health food related articles for the audience, and so promote themselves and their expertize on our Platform.
 Customers in turn can search, browse, list, like, save, or share the public meal plans via the Customer Meal Plan API, and also list and rank the experts, or contact an expert or an author of a specific meal plan they like, for a personally tailored plan or for dietary advice.
-Granted express permission from customers, experts can gain access to customer's personal preferences and health records.
+Granted express permission from customers, experts can gain access to customer's personal preferences (and health records when available in the future and compliant with HIPAA).
 Experts, their recipes, and meals can all be ranked and commented on by the customers sharing health and food information and driving the experts to improve and produce more and healthier food plans.
-The platform could be expanded to allow creating meal plans that are tailored for specific goal, like losing weight, or for a specific type of person, like diabetics, and allowing the customer to communicate with the meal plan author to share impressions, track goals and provide valuable feedback, fostering a community of health food experts and health food consumers.
-In the future, the expert platform can be expanded into a full fledged social network of health-minded people and health food professionals, all serving each other for common good.  
+The platform could be expanded to allow creating meal plans that are tailored for specific goal, like losing weight, or for a specific type of person, like diabetes, and allowing the customer to communicate with the meal plan author to share impressions, track goals and provide valuable feedback, fostering a community of health food experts and health food consumers.
+In the future, the expert platform can be expanded into a full fledged social network of health-minded people and health food professionals, all serving each other for common good and supporting each other's healthy eating habbits.  
 
 ## Use cases
 
