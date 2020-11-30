@@ -52,6 +52,7 @@ Of course if we experiment with something that we don’t know we can do tempora
 * [Identity and Profile](./Key%20Capabilities/Identity%20and%20Profile.md)  
 * [Kitchen Capability](./Key%20Capabilities/Kitchens.md)
 * [Meal Inventory](./Key%20Capabilities/Meal%20Inventory.md)
+* [Pricing](./Key%20Capabilities/Pricing%20policies.md)
 
 #### Intermediate Level Capabilities  
 
