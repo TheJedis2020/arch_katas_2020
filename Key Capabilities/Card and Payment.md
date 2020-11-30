@@ -26,3 +26,4 @@ To allow for customers to subscribe to meals and to pay for them both online and
 ## Architectural choice
 
 * Microservice
+* Micro Kernel for payment processors
