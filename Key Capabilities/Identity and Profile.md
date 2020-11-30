@@ -28,6 +28,7 @@ Identity services are essential if we customers are to subscribe to meals, recei
 * Fault tolerance.
 * Performance.
 * Elasticity.
+* Security
 
 ## Architectural choice
 
