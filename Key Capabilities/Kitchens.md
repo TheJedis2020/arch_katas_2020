@@ -4,7 +4,7 @@
 
 ## Capability rationale and description
 
-The kitchen orders and delivery must become automated to handle customer demand and to support the subscription capability. It should also allow admin interface to monitor kitchen loads, orders inflow and outflow, and manage relevant supplies purchases. The __Kitchen Capability__ begins with manual work order creation by the admins, an expands with the addition of __Subscription Capablity__ to support automated order creation. The capability interfaces with external services like ChefTech for Inventory Control, Nutritional Analysis, Purchasing & Ordering, Production, and Requisitioning & Transfer. 
+The kitchen orders and delivery must become automated to handle customer demand and to support the subscription capability. It should also allow admin interface to monitor kitchen loads, orders inflow and outflow, and manage relevant supplies purchases. It's like manufacturing Shop Flow Control for managing the various components of the manufacturing process. At some point of time we might want to introduce automated quality control systems too and sensors to manage temperature, humidity and other parameters in Kitchen appliances. The __Kitchen Capability__ begins with manual work order creation by the admins, an expands with the addition of __Subscription Capablity__ to support automated work order creation. The capability interfaces with external services like ChefTech for Inventory Control, Nutritional Analysis, Purchasing & Ordering, Production, and Requisitioning & Transfer. 
 
 ## Use cases
 
@@ -29,6 +29,8 @@ The kitchen orders and delivery must become automated to handle customer demand 
 * Integration.
 * Single DB.
 * Domain partitioning.
+
 ## Architectural choice
 
-* Service-oriented.
+* Microservices 
+* Service-oriented and message driven.
