@@ -4,15 +4,17 @@
 
 ## Capability rationale and description
 
-To allow more sophisticated operation than just payment for meal at the fridge, fridge API must be able to create a purchase session, that would connect the fridge, the inventory, the customer id, the payment and the subscriptions if any.
+To allow more sophisticated operation than just payment for meal at the fridge, fridge API must be able to create a purchase session, that would connect the fridge, the inventory, the customer id, the payment, and also the referrals, expert ids and subscriptions if any.
 The fridge must also report its status and inventory, as well as attempts of theft or unauthorised meal removal.
 The fridge has area for "free for all" (FFA) meals, available to anyone, identified by barcode and a special area for subscription meals, which are identified by barcode, customer name, and a vivid sign.
 
 ## Use cases
 
 * Anonimous customer opens the fridge by swiping a card, picks up a "free for all" meal or meals, closes the door, card is charged for meals taken.
-* Subscribed customer opens the fridge by swiping a card, picks up his subscription meal and may also take some "free for all" meal or meals, closes the door, card is charged for meals taken.
-* Subscribed customer opens the fridge by identity card or token, picks up his subscription meal and may also take some "free for all" meal or meals, closes the door, card is charged for meals taken.
+* Subscribed customer opens the fridge by swiping a card, picks up his subscription meal and may also take some "free for all" meal or meals, closes the door, Purchase Session charged the card for meals taken.
+* Subscribed customer opens the fridge by ID token, picks up his subscription meal and may also take some "free for all" meal or meals, closes the door, Purchase Session charged the card in customer wallet for meals taken.
+* Anonymous customer takes a subscription meal, alarm is sounded. If customer persists, the the Purchase Session charges the card and notifies system of theft.
+* Subscriber customer takes a subscription meal of another customer, alarm is sounded. If customer persists, the Purchase Session charges the card and notifies system of theft and updates customer record. 
 
 
 ## Components

@@ -5,6 +5,7 @@
 ## Capability rationale and description
 
 Allow the customers to order individual meals as well as to subscribe to weekly, monthly etc food deliveries. Automate meal orders and meal status tracking. Notify customers about meal arrivals. Tolerate peak times. High availability for customers.
+If the subscription was created from an expert meal plan, Subscription Service will include expert ID in subscriptions and Subscription Work Order message will include expert ID when creating meal work order. Subsequently all meal status messages will include expert ID as well as customer ID. 
 
 ## Use cases
 

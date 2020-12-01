@@ -39,13 +39,13 @@ Any system or business usually have humble beginnings and then grow organically 
 Modern technologies and Cloud enable rapid experimentation and development of distributed systems that were considered very complex several years ago. Within a few clicks or lines of code we can spin out a whole environment with databases, message brokers and microservices securely deployed in the Cloud of our choice. We can then gradually and continuously experiment our ideas, hypothesis and thus delight our customers with solving they toughest pains. Therefore, our strategy is to define initial architecture based on customer feedbacks as an ideal target state (which of course will evolve) and aim to to that. Here, we see no benefit in investing time and effort in creating technical debt and building monolithic systems or components which will require refactoring and re-engineering in the future. 
 Of course if we experiment with something that we don’t know we can do temporary trade-offs and simplifications, but we should have a very clear reason for __NOT__ aiming to the ideal target state. Unless, we are building a minimum viable product for rapid experimentation with new hypothesis and we are not sure about future requirements, customer needs or market. Our main principle is that "we are not rich enough to buy cheap things".
 
- [Here](./Strategy.md) is a detailed strategy how we plan to scale and expand our architecture to empower __Farmacy Food__ and achieve its full potential.  
+ __[Here we outline](./Strategy.md)__ a detailed strategy how we plan to scale and expand our architecture to empower __Farmacy Food__ and achieve its full potential.  
 
 ## The Architecture  
 
 * [General Architecture](./GeneralArchitecture.md) - the general architectural idea.  
 
-#### Basic Capabilities  
+#### Stage 1 Capabilities  
 
 * [Fridge Capability](./Key%20Capabilities/Fridge%20Capability.md)
 * [Card and Payment](./Key%20Capabilities/Card%20and%20Payment.md)
@@ -54,36 +54,39 @@ Of course if we experiment with something that we don’t know we can do tempora
 * [Meal Inventory](./Key%20Capabilities/Meal%20Inventory.md)
 * [Pricing](./Key%20Capabilities/Pricing%20policies.md)
 
-#### Intermediate Level Capabilities  
+#### Stage 2 Capabilities  
 
 * [Customer Subscriptions](./Key%20Capabilities/Customer%20Subscriptions.md)
 * [Notifications](./Key%20Capabilities/Notifications.md)
 * [Feedback and Ranking](./Key%20Capabilities/Feedbacks.md)  
+* [Referrals and Rewards](./Key%20Capabilities/Referrals%20and%20Rewards.md)  
 
-#### Advanced Capabilities  
+#### Stage 3 Capabilities  
 
 * [Data Platform](./Key%20Capabilities/Data%20Platform.md)
-* [Referrals and Rewards](./Key%20Capabilities/Referrals%20and%20Rewards.md)
 * [Expert Platform and CMS](./Key%20Capabilities/Expert%20Platform.md)  
 
-## Workflow  
+## Sequence  Diagrams
 
-* [Customer journey](./Workflow%20and%20Journeys/CustomerJourney.md)
-* [Meal journey](./Workflow%20and%20Journeys/MealJourney.md)
-* [Expert Workflow](./Workflow%20and%20Journeys/ExpertWorkflow.md)  
+* [Customer Meal Plan Subscription](./Sequence%20Diagrams/MealPlanSubscription.png)
+* [From Subscription To Smart Fridge](./Sequence%20Diagrams/SubscriptionExecution.png)
+* [Purchase by Registered Customer](./Sequence%20Diagrams/RegPurchase.PNG)  
+* [Purchase by Unregistered Customer](./Sequence%20Diagrams/UnregPurchase.PNG)  
+* [Customer Notifications](./Sequence%20Diagrams/CustomerNotifications.png)  
+* [Referrals and Rewards](./Sequence%20Diagrams/ReferralsRewards.png)  
 
 ## Architectural Desision Records (ADRs)  
 
-You can find the Architectural Decision Records [here](https://github.com/TheJedis2020/arch_katas_2020/tree/main/ADRs)  
+You can find the key Architectural Decision Records [here](./ADRs/)  
 
 # Directory Structure
 
-- [ADRs](https://github.com/TheJedis2020/arch_katas_2020/tree/main/ADRs) - contains all architecture decisions and assumptions
-- [diagrams](https://github.com/TheJedis2020/arch_katas_2020/tree/main/diagrams) - contains architecture diagrams (also available as a singe [PDF file](https://github.com/TheJedis2020/arch_katas_2020/blob/main/diagrams/FarmacyFood.pdf))
-	- [Legend](https://github.com/TheJedis2020/arch_katas_2020/blob/main/diagrams/Legend.jpg)
-	- [System Overview and Use Case Diagram](https://github.com/TheJedis2020/arch_katas_2020/blob/main/diagrams/System%20Overview%20and%20Use%20Case%20Diagram.jpg)
-	- [System Component Diagram](https://github.com/TheJedis2020/arch_katas_2020/blob/main/diagrams/System%20Component%20Diagram.jpg)
-	- [Data Platform Diagram](https://github.com/TheJedis2020/arch_katas_2020/blob/main/diagrams/Data%20Platform%20Diagram.jpg)
-- [Key Capabilities](./Key%20Capabilities/)
-- [Workflow and Journeys](./Workflow%20and%20Journeys/)
+- [ADRs](./ADRs/) - contains all architecture decisions and assumptions
+- [diagrams](./diagrams/) - contains architecture diagrams (also available as a singe [PDF file](./diagrams/System%20Component%20Diagram%20-%20Platform.pdf))
+	- [Legend](./diagrams/Legend.jpg)
+	- [System Overview and Use Case Diagram](./diagrams/System%20Overview%20and%20Use%20Case%20Diagram%20-%20Platform.jpeg)
+	- [System Component Diagram](./diagrams/System%20Component%20Diagram%20-%20Platform.jpeg)
+	- [Data Platform Diagram](./diagrams/Data%20Platform%20Diagram.jpg)
+- [Key Capabilities](./Key%20Capabilities/) - contains the architectural descriptions of key system capabilities
+- [Sequence Diagrams](./Sequence%20Diagrams/)
 
