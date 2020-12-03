@@ -10,6 +10,9 @@ All successful business stories start with a problem to solve. In this case, all
 
 Any system or business usually have humble beginnings and then grow organically into something more. The question is, into what. In the beginning all __Farmacy Food__ has is a - kitchen, the fridges, and a modest accounting and payment capabilities managed via __QuickBooks__. Our vision is to build up from these capabilities and to evolve __Farmacy Food__ into a meeting place and even a social network, where health experts and customers can live the motto of business founder, Kwaku: "Let thy food be thy medicine". There, they would exchange their experiences, meal plans and health related content. Plus, with the underlying __Farmacy Food__ infrastructure customers will purchase meals or subscribe to whole meal plans from the experts of their choice, with a guarantee of delivery to the smart fridge near them. Our conviction is that we are not creating a mere IoT and logistical mechanism. With our architecture we would love to create an impact by building long living “healthy eating communities” and help Kwaku’s business grow fast, organically and in a cost effective way.
 
+## The Video
+[![Watch the video](./Images/video.png)](https://vimeo.com/484549209/65be97bd7d)
+
 ## Business Requirements  
 
 #### Short term  
